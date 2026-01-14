@@ -1,4 +1,4 @@
-# 🧭 Dynamic Navigation & LiDAR-Based SLAM with TurtleBot3 (ROS 2 Jazzy)
+# Dynamic Navigation & LiDAR-Based SLAM with TurtleBot3 (ROS 2 Jazzy)
 
 This project implements **Dynamic Autonomous Navigation** and **LiDAR-based SLAM** on a simulated TurtleBot3 mobile robot using **ROS 2 Jazzy**, **Gazebo**, **Nav2**, and **slam_toolbox**.
 
@@ -14,7 +14,7 @@ This project is suitable for academic work, robotics research, and portfolio pre
 
 ---
 
-## 📌 Features
+##  Features
 
 - ✅ **SLAM using LiDAR**  
 - ✅ **Real-time map building**  
@@ -26,7 +26,7 @@ This project is suitable for academic work, robotics research, and portfolio pre
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Component | Version / Notes |
 |----------|-----------------|
@@ -39,7 +39,7 @@ This project is suitable for academic work, robotics research, and portfolio pre
 
 ---
 
-# 📍 1. Setup
+#  1. Setup
 
 ### Install TurtleBot3 simulation
 
@@ -69,7 +69,7 @@ sudo apt install ros-jazzy-turtlebot3-navigation2
 
 ---
 
-# 🗺️ 2. Running LiDAR SLAM
+#  2. Running LiDAR SLAM
 
 ### Terminal 1 – Start Gazebo Simulation
 
@@ -116,7 +116,7 @@ This generates:
 
 ---
 
-# 🧭 4. Dynamic Navigation with Nav2
+#  4. Dynamic Navigation with Nav2
 
 ### Terminal 1 – Gazebo
 
@@ -151,7 +151,7 @@ Load Nav2 config:
 
 ---
 
-# 🚀 5. Dynamic Obstacle Avoidance
+#  5. Dynamic Obstacle Avoidance
 
 In Gazebo:
 
@@ -169,8 +169,7 @@ This demonstrates **dynamic navigation**.
 
 ---
 
-# 🧪 6. Experiments
-
+#  6. Experiments
 Suggested evaluation metrics:
 - Time-to-goal  
 - Path length  
@@ -186,7 +185,7 @@ ros2 bag record /scan /map /tf /cmd_vel /odom
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 .
@@ -200,13 +199,13 @@ ros2 bag record /scan /map /tf /cmd_vel /odom
 
 ---
 
-# 📝 License
+#  License
 
 MIT License
 
 ---
 
-# 👤 Author
+#  Author
 
 Developed by **Panagiota Grosdouli**  
 Democritus University of Thrace  
