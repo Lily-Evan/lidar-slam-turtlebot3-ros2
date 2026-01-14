@@ -102,7 +102,7 @@ Drive the robot around to generate a complete map.
 
 ---
 
-# 💾 3. Saving the Map
+#  3. Saving the Map
 
 ```bash
 mkdir -p ~/maps
